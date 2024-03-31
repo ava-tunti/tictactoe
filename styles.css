@@ -1,4 +1,4 @@
-/* button {
+button {
     background-color: #0c80f3;
     border: 6px solid #0ff166;
     border-radius: 10px;
@@ -45,58 +45,5 @@
   .white {
     color: white;
   }
-   */
+  
 
-   /* General button styles */
-button {
-    background-color: #0c80f3;
-    border: 6px solid #0ff166;
-    border-radius: 10px;
-  }
-  
-  /* Board styles */
-  .game-board {
-    width: 600px;
-    height: 600px;
-    margin: 0 auto;
-    background-color: #34495e;
-    color: rgb(204, 28, 28);
-    border: 6px solid #0b0d0f;
-    border-radius: 10px;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-  }
-  
-  /* Grid row styles */
-  .grid-row {
-    border: 6px solid #739dc7;
-    border-radius: 6px;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 4em;
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(175, 70, 70);
-  }
-  
-  /* Square styles */
-  .block {
-    background-color: rgb(219, 28, 28);
-    border: 6px solid green;
-    border-radius: 6px;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 20em;
-  }
-  
-  /* Mark color styles */
-  .red {
-    color: red;
-  }
-  
-  .white {
-    color: white;
-  }
-  
